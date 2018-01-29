@@ -3,7 +3,7 @@
 (function () {
     "use strict";
 
-    const WEBSERVER_DEFAULT_PORT = 8120;
+    const WEBSERVER_DEFAULT_PORT = 5000;
     let port = process.env.PORT || WEBSERVER_DEFAULT_PORT;
 
     let secretManagement = require("./SecretManagement");
