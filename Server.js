@@ -26,8 +26,8 @@
     let authorizationServiceApi = require("./AuthorizationServiceApi");
     app.use("/api/authorization", authorizationServiceApi.createRouter());
 
-    app.listen(process.env.PORT || 5000);
+    app.listen(process.env.PORT || 3000);
 
-    console.log("The website is now available at http://localhost:" + port);
+    console.log("The website is now available at http://localhost: 5000");
     console.log("Press Control+C to shut down the application.");
 })();
