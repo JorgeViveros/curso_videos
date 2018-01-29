@@ -8,7 +8,7 @@
   "scripts": {
   "start": "node Server.js"
 },
-  "repository": "https://github.com/Axinom/drm-quick-start",
+  "repository": "https://github.com/JorgeViveros/curso_videos.git",
   "dependencies": {
     "commander": "^2.9.0",
     "crypto-stream": "^1.0.0",
