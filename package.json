@@ -6,7 +6,7 @@
   "author": "Axinom",
   "license": "MIT",
   "scripts": {
-  "start": "node index.js"
+  "start": "node Server.js"
 },
   "repository": "https://github.com/Axinom/drm-quick-start",
   "dependencies": {
