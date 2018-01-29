@@ -3,8 +3,8 @@
 (function () {
     "use strict";
 
-    const WEBSERVER_DEFAULT_PORT = 5000;
-    let port = process.env.PORT || WEBSERVER_DEFAULT_PORT;
+    //const WEBSERVER_DEFAULT_PORT = 5000;
+    //let port = process.env.PORT || WEBSERVER_DEFAULT_PORT;
 
     let secretManagement = require("./SecretManagement");
     secretManagement.tryLoadSecrets();
@@ -26,7 +26,7 @@
     let authorizationServiceApi = require("./AuthorizationServiceApi");
     app.use("/api/authorization", authorizationServiceApi.createRouter());
 
-    app.listen(port);
+    app.listen(process.env.PORT || 5000);
 
     console.log("The website is now available at http://localhost:" + port);
     console.log("Press Control+C to shut down the application.");
