@@ -28,6 +28,6 @@
 
     app.listen(process.env.PORT || 3000);
 
-    console.log("The website is now available at http://localhost: 5000");
+    console.log("The website is now available at http://localhost: 3000");
     console.log("Press Control+C to shut down the application.");
 })();
